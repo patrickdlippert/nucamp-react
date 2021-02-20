@@ -49,12 +49,14 @@ h2 {
 .page-enter {
   opacity: 0;
   transform: translateX(-100%);
+  /* transform: scale(1.5,1.5); */
 }
 
 .page-enter-active {
   opacity: 1;
   transform: translateX(0%);
   transition: 300ms ease-out;
+  /*transform: scale(1.0, 1.0); */
 }
 
 .page-exit {
